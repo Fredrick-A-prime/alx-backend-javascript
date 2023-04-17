@@ -1,5 +1,3 @@
-import getNeighborhoodsList from './2-arrow.js';
+import appendToEachArrayValue from './10-loops.js';
 
-const neighborhoodsList = new getNeighborhoodsList();
-const res = neighborhoodsList.addNeighborhood('Noe Valley');
-console.log(res);
+console.log(appendToEachArrayValue(['appended', 'fixed', 'displayed'], 'correctly-'));
