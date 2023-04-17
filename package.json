@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "alx-backend-javascript",
   "version": "1.0.0",
   "description": "",
