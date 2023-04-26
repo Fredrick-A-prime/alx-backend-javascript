@@ -8,8 +8,8 @@ export default function guardrail(mathFunction) {
     value = err.toString();
   }
 
-  queue.push(value);
-  queue.push('Guardrail was processed');
+  arr.push(value);
+  arr.push('Guardrail was processed');
 
   return arr;
 }
